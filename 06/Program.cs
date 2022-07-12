@@ -5,4 +5,4 @@ string? s;
 s=Console.ReadLine();
 a=Convert.ToDouble(s);
 b=Math.Sin(a);
-System.Console.WriteLine($"{b}");
+System.Console.WriteLine(b);
