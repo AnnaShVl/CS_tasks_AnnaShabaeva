@@ -8,10 +8,10 @@ System.Console.WriteLine(Factorial(N));
 int Factorial(int N)//8-17 строки-подпрограмма
 {
     int f=1, a=1;
-    while(a<N)
+    while(a<=N)
     {
-        a++;
-        f=f*a;        
+        f=f*a;
+        a++;        
     }
     return f;
 }
